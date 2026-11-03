@@ -1,0 +1,29 @@
+name: Bug
+description: Something in Howard does not work as it should.
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what Howard did instead.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How to make it happen again
+      description: Steps, ideally on a small or public KiCad project.
+  - type: input
+    attributes:
+      label: Howard version
+      description: Help, then About.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: KiCad version and system
+      placeholder: KiCad 10.0.1, Ubuntu 24.04, x64
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: Issues are public. Leave out designs, logs or anything you would not share.

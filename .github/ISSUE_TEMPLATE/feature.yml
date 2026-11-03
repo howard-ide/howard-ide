@@ -1,0 +1,10 @@
+name: Feature
+description: Something Howard should do.
+labels: [feature]
+body:
+  - type: textarea
+    attributes:
+      label: What you are trying to do
+      description: The job, not the solution. What do you do today instead?
+    validations:
+      required: true
